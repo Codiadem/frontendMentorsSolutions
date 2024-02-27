@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: rgb(217, 217, 251);
+}
+
+main{
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    /* padding: 0 10px; */
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 1px 2px 5px grey;
+}
+.hero-img img{
+    width: 296px;
+    border-radius: 17px  17px 0 0;
+    margin-bottom: 10px;
+}
+
+.info h1, p{
+    text-align: center;
+    margin-top: 5px;
+    padding: 3px;
+
+}
+
+.info p{
+    color: rgb(159, 158, 158);
+    padding: 0 5px;
+}
+
+.plan{
+    background-color: #fff5f596;
+    width: 260px;
+    height: 55px;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.music-icon img{
+    padding: 10px;
+    width: 55px;
+}
+
+h5{
+    margin: 7px 0 0 -12px;
+    font-size: 14px;
+}
+
+.plan button{
+    appearance: none;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    display: inline block;
+    width: 20%;
+    margin-left: 60px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.plan button:active{
+    cursor: pointer;
+}
+
+.payment{
+    width: 250px;
+    /* height: 30px; */
+    margin:25px 0 10px 23px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    box-shadow: 1px 3px 4px black;
+}
+
+.amt p{
+    font-size: 15px;
+    margin:0 0 0 -12px;
+}
+
+.cancel{
+    margin: 25px 0 0 50px;
+}
